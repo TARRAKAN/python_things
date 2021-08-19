@@ -22,7 +22,7 @@ def run_game():
         #game_functions.check_events(ship) 
         ship.update()
         bullets.update()
-        game_functions.update_bullets(bullets)
+        game_functions.update_bullets(aliens, bullets)
         game_functions.update_aliens(ai_settings, aliens)
         game_functions.update_screen(ai_settings, screen, ship, aliens, bullets)
 
