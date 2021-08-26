@@ -9,6 +9,8 @@ class GameStats():
         except FileNotFoundError:
             print("Error")
             self.high_score = 0
+        except ValueError:
+            self.high_score = 0
 
     def reset_stats(self):
         self.ships_left = self.ai_settings.ship_limit
