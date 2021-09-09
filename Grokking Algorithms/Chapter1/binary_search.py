@@ -23,4 +23,8 @@ print(binary_search(lst1, 11))
 print(binary_search(lst1, 222))
 
 #1.1 log(2)128 = 7
-#1.2 7+1
+#1.2 7 + 1 = 8
+#1.3 O(log(2)n)
+#1.4 O(n)
+#1.5 O(n)
+#1.6 O(n)
