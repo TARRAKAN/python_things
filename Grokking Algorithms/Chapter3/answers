@@ -1,0 +1,7 @@
+3.1
+greet(name):
+	...
+	greet(name):
+		...
+
+3.2 stack overflow
